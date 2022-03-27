@@ -12,3 +12,13 @@
 
 ### How to use:
 - on withdraw function of your contract, put address of this split share contract.
+- - for example:
+
+```
+function withdraw() external {
+    uint amountToWithdraw = userBalances[msg.sender];
+    userBalances[msg.sender] = 0;
+    (bool success, ) = address(_splitter).call{value: amountToWithdraw}("")
+    require(success);
+}
+```
