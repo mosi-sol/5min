@@ -7,3 +7,8 @@ how to & why split shares for payment accounts.
     <img src="https://img.shields.io/badge/5%20minutes%20in%20solidity-live%20video%20in%20random%20time%20of%20day-white?style=for-the-badge&logo=solidity&labelColor=black" alt="mosi-sol" />
   </a>  
 </p>
+
+##
+
+### How to use:
+- on withdraw function of your contract, put address of this split share contract.
