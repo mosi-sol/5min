@@ -1,6 +1,6 @@
-## Split Share
+## Split Share (payment splitter)
 
-how to & why split shares for payment accounts.
+- how to & why split shares for payment accounts.
 
 <p align="right">
   <a href="https://github.com/mosi-sol/5min" target="blank">
