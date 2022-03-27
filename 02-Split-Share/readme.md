@@ -15,6 +15,7 @@
 - - for example:
 
 ```
+address _splitter = 0x00003230330....
 function withdraw() external {
     uint amountToWithdraw = userBalances[msg.sender];
     userBalances[msg.sender] = 0;
