@@ -12,7 +12,7 @@
 
 ### How to use:
 - on withdraw function of your contract, put address of this split share contract.
-- - for example:
+- for example:
 
 ```
 address _splitter = 0x00003230330....
