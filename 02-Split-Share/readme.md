@@ -23,3 +23,10 @@ function withdraw() external {
     require(success);
 }
 ```
+
+## AND
+you can add LOW-LEVEL recieve function, like:
+```
+receive() external payable{}
+fallback() external payable{}
+```
