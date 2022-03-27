@@ -19,7 +19,7 @@ address _splitter = 0x00003230330....
 function withdraw() external {
     uint amountToWithdraw = userBalances[msg.sender];
     userBalances[msg.sender] = 0;
-    (bool success, ) = address(_splitter).call{value: amountToWithdraw}("")
+    (bool success, ) = payable(_splitter).call{value: amountToWithdraw}("")
     require(success);
 }
 ```
