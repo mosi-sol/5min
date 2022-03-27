@@ -25,7 +25,7 @@ function withdraw() external {
 ```
 
 ## AND
-you can add LOW-LEVEL recieve function, like:
+you can add LOW-LEVEL recieve function on split payment contract, like:
 ```
 receive() external payable{}
 fallback() external payable{}
