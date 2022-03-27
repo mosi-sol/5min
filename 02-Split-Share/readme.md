@@ -15,7 +15,7 @@
 - for example:
 
 ```
-address immutable _splitter = 0x00003230330....
+address immutable _splitter = 0x00003230330....; // payment splitter smartcontract address
 function withdraw() external {
     uint amountToWithdraw = userBalances[msg.sender];
     userBalances[msg.sender] = 0;
