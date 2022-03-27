@@ -15,7 +15,7 @@ contract EasyDonation {
     }
 
     // pay to that address
-    // value in gwei (1e-18 eth)
+    // value in wei (1e-18 eth)
     function buyMeACafee() external payable {
         (bool success, ) = owner.call{value: msg.value}("");
         require(success);
