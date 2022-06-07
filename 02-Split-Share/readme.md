@@ -14,7 +14,7 @@
 - on withdraw function of your contract, put address of this split share contract.
 - for example:
 
-```
+```js
 address immutable _splitter = 0x00003230330....; // payment splitter smartcontract address
 function withdraw() external {
     uint amountToWithdraw = userBalances[msg.sender];
@@ -26,7 +26,7 @@ function withdraw() external {
 
 ## AND
 you can add LOW-LEVEL recieve function on split payment contract, like:
-```
+```js
 receive() external payable{}
 fallback() external payable{}
 ```
