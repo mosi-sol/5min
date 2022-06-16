@@ -1,6 +1,6 @@
-## Decentralized Micro Bank Syestem
+## HELPER
 
-micro accounting system
+helper example
 
 <p align="right">
   <a href="https://github.com/mosi-sol/5min" target="blank">
@@ -9,8 +9,8 @@ micro accounting system
 </p>
 
 ### how to
-- deploy: =
+- deploy & run functions
 
 ### features
-- =
-- =
+- getChainId
+- getTime {now}
