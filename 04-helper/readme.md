@@ -13,4 +13,4 @@ helper example
 
 ### features
 - getChainId
-- getTime {now}
+- getTime -> {now}
