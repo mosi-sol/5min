@@ -3,24 +3,11 @@
 
 ##
 
-<table>
-    <tr>
-    <td>
-    <a href="https://github.com/mosi-sol/5min" target="blank">
-    <img src="https://img.shields.io/badge/episide%2001-Donation.sol-black?style=flat-square&logo=solidity&logoColor=black" alt="pafecafe" /></a> 
-    </td>
-    <td>
-    <a href="https://github.com/mosi-sol/5min" target="blank">
-    <img src="https://img.shields.io/badge/episide%2002-SpilitterShare.sol-black?style=flat-square&logo=solidity&logoColor=black" alt="pafecafe" /></a> 
-    </td>
-  </tr>
-    <tr>
-    <td>
-    <a href="https://github.com/mosi-sol/5min" target="blank">
-    <img src="https://img.shields.io/badge/episide%2003-DBank.sol-black?style=flat-square&logo=solidity&logoColor=black" alt="pafecafe" /></a> 
-    </td>
-  </tr>
-</table>
+- 01- simple donation - [here](https://github.com/mosi-sol/5min/tree/main/01-simple-donation) 
+- 02- split share - [here](https://github.com/mosi-sol/5min/tree/main/02-Split-Share) 
+- 03- decentralized bank - [here](https://github.com/mosi-sol/5min/tree/main/03-decentralized-bank) 
+- 04- helpers - [here](https://github.com/mosi-sol/5min/tree/main/03-decentralized-bank) 
+- 05- event listener - [here](https://github.com/mosi-sol/5min/tree/main/05-Event-Listener) 
 
 <p align="right"> 
     <a href="https://github.com/mosi-sol/5min" target="blank">
