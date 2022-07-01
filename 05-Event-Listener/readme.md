@@ -14,8 +14,12 @@ requirment:
 - open command
 - run `npm init -y`
 - run `npm i ethers dotenv`
+- make `.env` & copy your [alchemyapi.io](https://alchemyapi.io) and copy websocket to .env
 - make `index.js` or copy from this repo [here](https://github.com/mosi-sol/5min/blob/main/05-Event-Listener/index.js) 
 - save file & run `node index.js`
+
+### attention:
+don't use infura.io at all, they're platform is centralized and make censorship, this is bad for web3 industry!!!
 
 ---
 
