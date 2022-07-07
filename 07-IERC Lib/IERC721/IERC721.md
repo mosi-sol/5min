@@ -30,3 +30,10 @@ function onERC721Received(
     ERC721(msg.sender).approve(from, sourceTokenId);
     return IERC721Receiver.onERC721Received.selector;
 }
+```
+- security check, last lines of `transfer` function. example:
+```solidity
+if (ERC165Checker.supportsInterface(owner, type(IERC721Receiver).interfaceId)) {
+...
+}
+```
