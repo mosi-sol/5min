@@ -1,6 +1,6 @@
 # IERC165
 
-```
+```solidity
 import "./IERC165.sol";
 contract ERC165MappingImplementation is IERC165 {
   /// @dev You must not set element 0xffffffff to true
