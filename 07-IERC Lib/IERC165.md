@@ -1,6 +1,10 @@
 # IERC165
+ref>> https://eips.ethereum.org/EIPS/eip-165
 
 ```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8;
+
 import "./IERC165.sol";
 contract ERC165MappingImplementation is IERC165 {
   /// @dev You must not set element 0xffffffff to true
