@@ -18,7 +18,8 @@ function checkRoyalties(address _contract) internal returns (bool) {
 ---
 
 ### IERC721TokenReceiver 
-example for receive:
+- implement `interfaceId == type(IERC721Receiver).interfaceId);`
+- example for receive:
 ```solidity
 function onERC721Received(
     address,
