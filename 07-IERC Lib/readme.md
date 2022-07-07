@@ -1,0 +1,3 @@
+- IERC165: https://github.com/mosi-sol/5min/blob/main/07-IERC%20Lib/IERC165.md
+- IERC20: https://github.com/mosi-sol/5min/blob/main/07-IERC%20Lib/IERC20/IERC20.md
+- IERC721: https://github.com/mosi-sol/5min/blob/main/07-IERC%20Lib/IERC721/IERC721.md
