@@ -2,7 +2,8 @@
 
 ### for using IERC2981 = royalityFee:
 
--1: register Royalties interface
+- 1: register Royalties interface
+
 `_registerInterface(_INTERFACE_ID_ERC2981);`
 
 - 2: recomended
