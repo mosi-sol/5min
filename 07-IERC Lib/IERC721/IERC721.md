@@ -7,7 +7,7 @@
 `_registerInterface(_INTERFACE_ID_ERC2981);`
 
 - 2: recomended
-```
+```solidity
 bytes4 private constant _INTERFACE_ID_ERC2981 = 0x2a55205a;
 
 function checkRoyalties(address _contract) internal returns (bool) {
@@ -15,3 +15,16 @@ function checkRoyalties(address _contract) internal returns (bool) {
     return success;
  }
 ```
+---
+
+example for receive:
+```solidity
+function onERC721Received(
+    address,
+    address from,
+    uint256 sourceTokenId,
+    bytes calldata
+) external override returns (bytes4) {
+    ERC721(msg.sender).approve(from, sourceTokenId);
+    return IERC721Receiver.onERC721Received.selector;
+}
