@@ -8,6 +8,7 @@
 - 03- decentralized bank - [here](https://github.com/mosi-sol/5min/tree/main/03-decentralized-bank) 
 - 04- helpers - [here](https://github.com/mosi-sol/5min/tree/main/03-decentralized-bank) 
 - 05- event listener - [here](https://github.com/mosi-sol/5min/tree/main/05-Event-Listener) 
+- 06- IERC Liberaries - [here](https://github.com/mosi-sol/5min/tree/main/06-Shorthand) 
 
 <p align="right"> 
     <a href="https://github.com/mosi-sol/5min" target="blank">
