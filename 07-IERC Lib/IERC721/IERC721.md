@@ -17,6 +17,7 @@ function checkRoyalties(address _contract) internal returns (bool) {
 ```
 ---
 
+### IERC721TokenReceiver 
 example for receive:
 ```solidity
 function onERC721Received(
