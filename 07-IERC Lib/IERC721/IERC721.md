@@ -33,7 +33,7 @@ function onERC721Received(
 ```
 - security check, last lines of `transfer` function. example:
 ```solidity
-if (ERC165.supportsInterface(owner, type(IERC721Receiver).interfaceId)) {
+if (ERC165.supportsInterface(recipient, type(IERC721Receiver).interfaceId)) {
 ...
 }
 ```
