@@ -12,6 +12,7 @@
 - 07- IERC Liberaries - [here](https://github.com/mosi-sol/5min/tree/main/07-IERC%20Lib) 
 - 08- Wallet Address Generator - [here](https://github.com/mosi-sol/5min/tree/main/08-Wallet%20Address%20Generator) 
 - 09- Wallet Address Generator {nmemonic} - [here](https://github.com/mosi-sol/5min/tree/main/09-Wallet%20Address%20Generator%20-%20nmemonic) 
+- 10- Recover Wallet by seed phrase - [here](https://github.com/mosi-sol/5min/tree/main/10-Recover%20Wallet%20by%20seed) 
 
 <p align="right"> 
     <a href="https://github.com/mosi-sol/5min" target="blank">
