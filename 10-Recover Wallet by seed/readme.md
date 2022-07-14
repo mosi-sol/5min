@@ -1,4 +1,4 @@
-# EVM-base Wallet Address Generator
+# EVM-base Wallet Address Recovery
 
 **how to run:**
 - open project in/on/at terminal/cmd
