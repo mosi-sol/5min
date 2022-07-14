@@ -14,3 +14,5 @@ project run/use by node-js
 - this generator just for testing or developing purpeses on test nets, don't use in main net.
 
 > 07-13-2022 <- live stream ->
+
+***Standard world list*** [watch here](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md) 
