@@ -27,4 +27,12 @@ function getResult(uint256 data) external view virtual override returns (uint256
     bytes memory info = _hashed[data];
     (id, from, to, amount, time) = abi.decode(info, (uint256, address, address, uint256, uint256));
 }
+
+
+ function _compressData(uint256 amount, address from, address to) internal returns (bytes memory _crypto){
+     _crypto = bytes(abi.encode(_ledgerId, from, to, amount, block.timestamp));
+     _hashed[_ledgerId] = _crypto;
+     emit MintData(_ledgerId, block.timestamp, _crypto);
+     _ledgerId += 1;
+ }
 */
